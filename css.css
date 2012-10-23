@@ -1,0 +1,18 @@
+html {background: #000000;}
+body {background: #000000;
+ }
+#container{
+
+     text-align: right;
+}
+#logo{float: left;margin: 0;padding: 0; display: inline-block;}
+ ul.links{margin:60;padding:60;}ul.links.inline{display:inline;}ul.links 
+ li{display:inline;list-style-type:none;font-family: Comic Sans, Comic Sans MS, cursive; color: #ffffff;margin-top: 100px; margin-left: 20px; margin-right: 20px;}
+ a:link {color:#ffffff;}a:visited {color:#ffffff;}a:hover {color:#FFB90F;}  
+a{text-decoration:none} 
+#space{min-height:100px;
+min-width:10000px;}
+#ajax{ margin-left: auto ;
+  margin-right: auto ;
+	max-width: 500px;
+text-align: center;}
