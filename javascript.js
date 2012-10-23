@@ -1,19 +1,22 @@
  
 	
 function ajaxcallhome () {
-	$("#ajax").load('home.html').attr('Color');
+	$("#ajax").load('landing.html').attr('Color');
 	
 }
-function ajaxcallhtml () {
-	$("#ajax").load('html.html').attr('color');
+function ajaxcallcontact () {
+	$("#ajax").load('contact.html').attr('color');
 	
 }	
-function ajaxcallcss () {
-	$("#ajax").load('css.html').attr('color');
-	
-}
-	
 function ajaxcallabout () {
 	$("#ajax").load('about.html').attr('color');
 	
+}
+	
+function ajaxcallcool () {
+	$("#ajax").load('cool.html').attr('color');
+	
+}
+function ajaxcallcode () {
+	$("#ajax").load('code.html').attr('color');
 }
