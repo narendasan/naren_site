@@ -6,28 +6,37 @@ div.header{
 	background-image:url('header.jpg');
 	min-height: 70px;
 	max-height:70px;
+	/*border-radius:10px;
+-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+/*box-shadow: 5px 5px 3px #888888;*/
 }
 #container{
 
      text-align: right;
 }
 #logo{	float: left;
-		margin: 0;
-		padding: 0; 
+		margin: 0px;
+		padding-left: 10px; 
 		display: inline-block;
+		text-align: middle;
 	}
- ul.links{	margin:60;
- 			padding:60;
+ ul.links{	margin:10px;
+ 			padding:25px;
+ 			max-height: 70px;
+ 			text-align: center;
  		}
  ul.links.inline{display:inline;
  				}
  ul.links li{	display:inline;
  				list-style-type:none;
- 				font-family: Comic Sans, Comic Sans MS, cursive; 
- 				color: #000000;
+ 				color: #171717;;
+font-family: Century Gothic, sans-serif;
+  
+
  				margin-top: 100px; 
  				margin-left: 20px; 
  				margin-right: 20px;
+ 				text-align: center;
  			}
  a:link {color:#000000;
  		}
@@ -52,7 +61,7 @@ background-position:right bottom;
 min-height:100px;
 min-width:100%;
  width: 50%; 
-height: 250px; 
+height: 200px; 
 background-image:url('pattern.jpg'); 
 background-position:right top;
 
@@ -60,11 +69,12 @@ background-position:right top;
 #ajax{
 margin-left: auto ;
   margin-right: auto ;
-	max-width: 100%;
+	width: 75%;
 text-align: center;
-	min-width: 100%; 
-min-height: 100px; 
-background-image:url('pattern.jpg');
+	float: center;       
+min-height: 700px; 
+background-image:url('ajax.jpg');
+box-shadow: 10px 10px 10px #171717;
 }
 #bumper{
 width: 100%; 
@@ -74,3 +84,16 @@ margin-bottom: 0px;
 	padding-bottom: 0px;
 	
 }
+div.link{
+	height: 50px;
+	max-width: 150px;
+	float: right;
+	text-align: center;
+	vertical-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; 
+}
+div.link:hover{
+	border: 1px;
+	border-color:black;
