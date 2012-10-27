@@ -1,42 +1,35 @@
 <!DOCTYPEhtml>
 <html>
-<header><link rel="stylesheet" type="text/css" href="views.css" /></header>
+<header><link rel="stylesheet" type="text/css" href="views.css" />
+<script type="text/javascript" src="javascript.js"></script>
+</header>
 <style type="text/css">
 /*html {background-color: #EEC591;}*/
-#ajax {background-color: #EEC591;}	
-h1,h2,p {color: #171717;;
+#ajax {background-color: #EEC591;
+	}	
+h1,h2,p,h5 {color: #171717;;
 font-family: Century Gothic, sans-serif;
-  
-}</style>
-<body><h1>CSS</h1>
+	}
+h5.projects{display:inline;
+	}
+img.projects{
+	box-shadow: 10px 10px 5px #888888
+}
+
+</style>
+<body><h1>My Projects</h1>
 	<h2>An Overview</h2>
-	<p>hello world
-		ddnsd
-		sd
-
-		sd
-	<br>		<br>sd
+<p>
+		<div class='projects'><img src="homestead.jpg" onclick="ajaxcallnhd()" class='projects' ></div>
 		<br>
-			<br>
-				<br>
-					<br>
-						<br>
-							<br>
-								<br>
-									<br>
-										<br>
-											<br>
-
-		sd
-
-		sd
-		sd
-		sd
-		
-		s
-		d
-
-		ds
-	</p>
+		<h5 class='projects'>external link:<a href="http://54844055.nhd.weebly.com/">NHD Project</a></h5>
+		<br>
+		<br>
+		<br>
+		<div class='projects'><img src="NOAA.jpg" onclick="ajaxcallnoaa()" class='projects'></div>
+		<br>
+		<h5 class='projects'>external link:<a href="http://localhost/~naren/v4.0/test.html">NOAA</a></h5>
+</p>
+	
 </body>
 </html>
