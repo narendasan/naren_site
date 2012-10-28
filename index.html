@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<link rel="icon" type="image/gif" href="favicon.gif" />
 <meta name="description" content="Naren's Test Site" />
 <meta name="keywords" content="HTML,CSS,JavaScript,Naren,awesome" />
 <meta name="author" content="Naren Dasan" />
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <script type="text/javascript" src="javascript.js"></script>
 <script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript">
+window.onload = ajaxcallabout;
+
+</script>
 <link rel="stylesheet" type="text/css" href="css.css" />
 <div id="bumper">
 </div>
@@ -23,20 +29,20 @@
 <div id="navigation">
 <ul class="links">
 <div class="link">
-<li><a onclick="ajaxcallabout()">Code</a></li>
+<li><a onclick="ajaxcallcode()">Code</a></li>
 </div>
 <div class="link">
-<li><a onclick="ajaxcallcool()">Cool Stuff</a></li>
+<li><a onclick="ajaxcallprojects()">Projects</a></li>
 </div>
 <div class="link">
-<li><a onclick="ajaxcallabout()">Contact</a></li>
+<li><a onclick="ajaxcallcontact()">Contact</a></li>
 </div>
 <div class="link">
-<li><a onclick="ajaxcallcontact()">About</a></li>
+<li><a onclick="ajaxcallabout()">Home</a></li>
 </div>
-<div class="link">
+<!--<div class="link">
 <li><a onclick="ajaxcallhome()">Home</a></li>
-</div>
+</div>-->
 </ul>
 </div>
 </div>
@@ -45,9 +51,10 @@
 </div>
 </head>
 <body>
-<div id="ajax" onload="ajaxcallhome()">
+<div id="ajax">
+</p>
 </div>
-<div id="lower" onload="bottom()">
+<div id="lower">
 </div>
 </body>
 </html>

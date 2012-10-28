@@ -13,7 +13,7 @@ function ajaxcallabout () {
 	
 }
 	
-function ajaxcallcool () {
+function ajaxcallprojects () {
 	$("#ajax").load('cool.html');
 	
 }
@@ -24,34 +24,35 @@ function ajaxcallnhd () {
 	$("#ajax").html('<object data="http://54844055.nhd.weebly.com/">');
 }
 function ajaxcallnoaa () {
-	$("#ajax").html('<object data="http://localhost/~naren/v4.0/test.html">');
+	$("#ajax").html('<object data="http://www.narendasan.com/test.html">');
 }
-/*function bottom () {
+function bottom () {
 	var x = Math.floor((Math.random()*10)+1)
 	if ( x == 1 ) {
-		var color = $(this).css('background-image:url('pattern1.jpg')');
-	} 
+		var color = 'patterna.jpg';
+		} 
 	else if ( x == 2 ) {
-		var color = $(this).css('background-image:url('pattern2.jpg')');
-	} 
+		var color = 'patternb.jpg';
+		} 
 	else if ( x == 3) {
-		var color = $(this).css('background-image:url('pattern3.jpg')');
-	} 
+		var color = 'patternc.jpg';
+		} 
 	else if ( x == 4 ) {
-		var color = $(this).css('background-image:url('pattern4.jpg')');
-	} 
+		var color = 'patternd.jpg';
+		}	 
 	else if ( x == 5 ) {
-		var color = $(this).css('background-image:url('pattern5.jpg')');
-	} 
+		var color = 'patterne.jpg';
+		} 
 	else if ( x == 6 ) {
-		var color = $(this).css('background-image:url('pattern6.jpg')');
-	} 
+		var color = 'patternf.jpg';
+		} 
 	else if ( x == 7 ) {
-		var color = $(this).css('background-image:url('pattern7.jpg')');
-	} 
+		var color = 'patterng.jpg';
+		} 
 	else {
-		var color = $(this).css('background-image:url('pattern3.jpg')');
-	} 
-	$("#lower").html( "<div id="lower" style='" +
-                     color + ";'>" "</div>")
-}*/
+		var color = 'patternh.jpg';
+		} 
+ $("#lower").html('<div id "lower" style ="background-image:url('+color+')"></div>');
+}
+
+
