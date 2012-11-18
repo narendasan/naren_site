@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link rel="stylesheet" href="home.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="home.js">
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Fairview Mobile
+                </h3>
+                <a data-role="button" href="signin.html" class="ui-btn-right">
+                    Sign In
+                </a>
+                <a data-role="button" href="#page1" data-icon="home" data-iconpos="left" class="ui-btn-left">
+                    Home
+                </a>
+            </div>
+            <div data-role="content">
+                <h2>Infinite Campus</h2>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput1">
+                            Username
+                        </label>
+                        <input name="" id="textinput1" placeholder="" value="" type="text" />
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-mini="true">
+                        <label for="textinput2">
+                            Password
+                        </label>
+                        <input name="" id="textinput2" placeholder="" value="" type="password" />
+                    </fieldset>
+                </div>
+                <input type="submit" data-theme="e" value="Sign In" />
+                
+                <h2>
+                    Anouncements
+                </h2>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>
+                            Prospective Student Events
+                        </h3>
+                        <p>The following events are available for prospective 9th graders:</p>
+
+                        <ul>
+                        <li><strong>Showcase Night</strong>: November 28th</li>
+                        <li><strong>Breakfast with the Principal</strong>: Parents will have an opportunity to meet with our Principal, Don Stensrud, and ask questions about Fairview. Please contact Jenny McCarthy at 720-561-5329 to make a reservation.</li>
+                        <li><strong>Fairview Experience</strong>: This event is designed for incoming freshmen to experience Fairview. <a href="https://www.fairviewhs.org/registration/tours/new">Click here to make a reservation</a>.</li>
+                        <li><strong>Parent Tours</strong>: Parent Tours take place during the Fairview Experience and are conducted by an Administrator. Come see Fairview and get your questions answered. <strong>No reservation required.</strong></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>
+                            Christmas Tree Decoration Drive
+                        </h3>
+                        <p>Our Fairview club Fashion for A Cause is working with the local organization <em>There With Care</em> to collect Christmas tree decorations (ornaments, lights, tree skirts).  A total of 80 trees were donated to families that have children with critical illnesses, but they have no decorations.  New and used decorations will be collected <strong>through November 30th</strong>.  <strong>There will be a bin in the vestibule inside the main front door for donations to be dropped off</strong>.  Your help is greatly appreciated!</p>
+                    </div>
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>
+                            Finals Schedule
+                        </h3>
+                        <p>The schedule for Fall 2012 finals is:</p>
+
+                        <ul>
+                        <li><strong>8:05 - 9:25a</strong> &mdash; Tutoring time / makeup testing</li>
+                        <li><strong>9:30 - 11:30a</strong> &mdash; Testing Block #1</li>
+                        <li><strong>11:30 - 12:25p</strong> &mdash; Lunch Block</li>
+                        <li><strong>12:30 - 2:30p</strong> &mdash; Testing Block #2</li>
+                        </ul>
+                        <table style="margin: 18px 5; font-size: 12px; width: 444px; margin:10px auto;">
+                         <tr>
+                         <th>Day</th>
+                            <th>Test 1</th>
+                          <th>Test 2</th>
+                        </tr>
+                        <tr>
+                         <td>Monday 12/17</td>
+                        <td>Period 1</td>
+                        <td>Period 8</td>
+                        </tr>
+                        <tr>
+                        <td>Tuesday 12/18</td>
+                        <td>Period 2</td>
+                        <td>Period 7</td>
+                         </tr>
+                         <tr>
+                        <td>Wednesday 12/19</td>
+                        <td>Period 3</td>
+                        <td>Period 6</td>
+                        </tr>
+                        <tr>
+                          <td>Thursday 12/20</td>
+                          <td>Period 4</td>
+                          <td>Period 5</td>
+                         </tr>
+                            <tr>
+                        <td>Friday 12/21</td>
+                        <td><em>Make-up day</em></td>
+                     <td><em>Teacher grading</em></td>
+                     </tr>
+                    </table>
+
+
+                    </div>
+                </div>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>
+                            Updates from the Counseling and College & Career Center
+                        </h3>
+                        <p>The daily FHS announcements, known as <strong><em>Radio Rojo</em></strong>, will now have a weekly video installment. You can view our latest installment, featuring Fairview's Head Boy/Girl Bridger Tomlin and Kate Cuddington. <a href="http://www.schooltube.com/video/023dd42f97824123a2b3/Video%20Rojo%20Nov%209,%202012">here</a></p>
+                    </div>
+                </div>
+             <ul data-role="listview" data-divider-theme="a" data-inset="true">
+                    <li data-theme="a">
+                        <a href="directory.html" data-transition="slide">
+                            Staff Directory
+                        </a>
+                </li>
+              <ul>          
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
