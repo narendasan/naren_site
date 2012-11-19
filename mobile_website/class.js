@@ -1,3 +1,4 @@
+/*  (C) 2012 Naren Dasan. All rights reserved.  */
 (function($) {
   $.widget('mobile.tabbar', $.mobile.navbar, {
     _create: function() {
