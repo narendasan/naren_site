@@ -1,0 +1,8 @@
+1.Announcements(1-5) -> (title,details)	
+2.Sign in (username,password)-> (id,profile)
+3.Classes(id)-> list of classes
+4.Infinite campus (username,password) ->
+5.Directory ? (depends on how data is stored)
+6.Teacher(id) -> classes
+7.Class(id)-> documents(1-5),assignments(1-5),messages(1-5)
+8.Show more (for 1,7)
