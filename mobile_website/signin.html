@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
+<<<<<<< HEAD
         <!-- (C) 2012 Naren Dasan. All rights reserved. -->
+=======
+        <!-- (C) 2012 Naren Dasan. All rights reserved.--> 
+>>>>>>> themed
         <meta charset="utf-8" />
         <meta author="Naren Dasan"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
         </title>
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-        <link rel="stylesheet" href="signin.css" />
-        <style>
+        <link rel="stylesheet" href="themes/fairview_theme.min.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" /> 
             /* App custom styles */
         </style>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
         </script>
         <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
         </script>
-        <script src="signin.js">
-        </script>
+        <!--<script src="signin.js">
+        </script>-->
     </head>
     <body>
         <!-- Home -->
-        <div data-role="page" id="page1">
+        <div data-role="page" data-theme="a" id="page1">
             <div data-theme="a" data-role="header">
                 <h3>
                     Fairview Mobile
@@ -40,7 +43,7 @@
                         <label for="textinput1">
                             BVSD E-Mail
                         </label>
-                        <input name="" id="textinput1" placeholder="" value="" type="text" />
+                        <input name="" id="textinput1" placeholder="" value="" type="text" data-theme="c"/>
                     </fieldset>
                 </div>
                 <div data-role="fieldcontain">
@@ -48,7 +51,7 @@
                         <label for="textinput2">
                             Password
                         </label>
-                        <input name="" id="textinput2" placeholder="" value="" type="password" />
+                        <input name="" id="textinput2" placeholder="" value="" type="password" data-theme="c"/>
                     </fieldset>
                 </div>
                 <input type="submit" data-theme="a" value="Sign In" href="user.html"/>
